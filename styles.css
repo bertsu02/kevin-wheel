@@ -26,6 +26,8 @@ body {
   width: 250px;
   margin: 40px auto;
   cursor: pointer;
+  position: relative;
+  z-index: 999;
 }
 
 .button:hover {
