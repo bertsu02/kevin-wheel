@@ -50,7 +50,7 @@
       }
     }
 
-    return 'No Area';
+    return '0.1% Ticket, Roll Again XD';
   }
 
   function displayMessage(area) {
