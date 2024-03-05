@@ -50,7 +50,7 @@
       }
     }
 
-    return '0.1% Ticket, Roll Again XD';
+    return '1% Ticket, Timeout Kundis For 10 minutes, and roll again';
   }
 
   function displayMessage(area) {
