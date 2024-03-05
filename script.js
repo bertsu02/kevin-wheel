@@ -50,7 +50,7 @@
       }
     }
 
-    return '1% Ticket, Timeout Kundis For 10 minutes, and roll again';
+    return 'No area found';
   }
 
   function displayMessage(area) {
