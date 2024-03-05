@@ -49,3 +49,19 @@ body {
     filter: blur(0px);
   }
 }
+.message-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: linear-gradient(to right,  #5f16c8 , #7a1616);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Micro 5', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: white;
+  z-index: 1000;
+  display: none;
+}
