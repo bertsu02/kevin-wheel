@@ -34,7 +34,7 @@
   { name: 'Try Again', startDeg: 135.01, endDeg: 157.49 },
   { name: 'Runestake 50 Battle 30%', startDeg: 157.5, endDeg: 180 },
   { name: 'Try Again', startDeg: 180.01, endDeg: 202.49 },
-  { name: 'Stake 5% Tip', startDeg: 202.5, endDeg: 225 },
+  { name: 'Stake 5$ Tip', startDeg: 202.5, endDeg: 225 },
   { name: 'Try Again', startDeg: 225.01, endDeg: 247.49 },
   { name: 'Daddyskins 10$ Depo', startDeg: 247.5, endDeg: 270 },
   { name: 'Try Again', startDeg: 270.01, endDeg: 292.49 },
