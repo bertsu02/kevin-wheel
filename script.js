@@ -6,7 +6,7 @@
 
   startButton.addEventListener('click', () => {
     startButton.style.pointerEvents = 'none';
-    deg = Math.floor(500 + Math.random() * 500);
+    deg = Math.floor(1000 + Math.random() * 1000);
     wheel.style.transition = 'all 5s ease-out';
     wheel.style.transform = `rotate(${deg}deg)`;
     wheel.classList.add('blur');
