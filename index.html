@@ -5,15 +5,18 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Micro+5&display=swap"></noscript>
   </head>
 
   <body>
     <div id="app">
       <img class="marker" src="marker.png" />
       <img class="wheel" src="wheel.png" />
+      <img class="wheel2 hide" src="wheel2.png" />
       <img class="button" src="button.png" />
+      <img class="hide button2" src="button2.png" />
       <div class="message-container" id="message-container"></div>
     </div>
 
