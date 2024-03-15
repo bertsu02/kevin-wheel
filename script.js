@@ -61,13 +61,13 @@
   function determineArea2(deg2) {
     const areas = [
       { name: 'Better Luck Next Time!', startDeg: 0, endDeg: 67.49 },
-      { name: 'MAXX WIN!!!', startDeg: 67.5, endDeg: 90 },
+      { name: '👑MAXX WIN!!!👑', startDeg: 67.5, endDeg: 90 },
       { name: 'Better Luck Next Time!', startDeg: 90.01, endDeg: 157.49 },
       { name: 'MINI WIN!', startDeg: 157.5, endDeg: 180 },
       { name: 'Better Luck Next Time!', startDeg: 180.01, endDeg: 247.49 },
-      { name: 'MAJOR WIN!!', startDeg: 247.5, endDeg: 270 },
+      { name: '💎MAJOR WIN!!💎', startDeg: 247.5, endDeg: 270 },
       { name: 'Better Luck Next Time!', startDeg: 270.01, endDeg: 337.49},
-      { name: 'MINOR WIN!', startDeg: 337.5, endDeg: 360 },
+      { name: '💰MINOR WIN!💰', startDeg: 337.5, endDeg: 360 },
 
     ];
     deg2 = deg2 % 360; 
