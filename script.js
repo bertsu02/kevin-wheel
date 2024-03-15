@@ -66,7 +66,7 @@
       { name: 'MINI WIN!', startDeg: 157.5, endDeg: 180 },
       { name: 'Better Luck Next Time!', startDeg: 180.01, endDeg: 247.49 },
       { name: 'MAJOR WIN!!', startDeg: 247.5, endDeg: 270 },
-      { name: 'Better Luck Next Time!', startDeg: 180.01, endDeg: 337.49},
+      { name: 'Better Luck Next Time!', startDeg: 270.01, endDeg: 337.49},
       { name: 'MINOR WIN!', startDeg: 337.5, endDeg: 360 },
 
     ];
