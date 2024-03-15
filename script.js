@@ -5,7 +5,7 @@
   const wheel2 = document.querySelector('.wheel2');
   const startSecondButton = document.querySelector('.button2');
   let deg = 0;
-
+  let deg2 = 0;
   startButton.addEventListener('click', () => {
     startButton.style.pointerEvents = 'none';
     deg = Math.floor(1000 + Math.random() * 1000);
@@ -58,7 +58,7 @@
     return 'Dead center, RE-SPIN!';
   }
 
-  function determineArea2(deg) {
+  function determineArea2(deg2) {
     const areas = [
       { name: 'Better Luck Next Time!', startDeg: 0, endDeg: 67.49 },
       { name: 'MAXX WIN!!!', startDeg: 67.5, endDeg: 90 },
@@ -70,10 +70,10 @@
       { name: 'MINOR WIN!', startDeg: 337.5, endDeg: 360 },
 
     ];
-    deg = deg % 360; 
+    deg2 = deg2 % 360; 
 
     for (const area of areas) {
-      if (deg >= area.startDeg && deg < area.endDeg) {
+      if (deg2 >= area.startDeg && deg2 < area.endDeg) {
         return area.name;
       }
     }
@@ -104,9 +104,9 @@
         newButton.src = 'button2.png';
         newButton.onclick = function() {
           startSecondButton.style.pointerEvents = 'none';
-          deg = Math.floor(1000 + Math.random() * 1000);
+          deg2 = Math.floor(1000 + Math.random() * 1000);
           newWheel.style.transition = 'all 10s ease-out';
-          newWheel.style.transform = `rotate(${deg}deg)`;
+          newWheel.style.transform = `rotate(${deg2}deg)`;
         };
         newWheel.addEventListener('transitionend', function() {
           const newDeg = Math.floor(1000 + Math.random() * 1000); 
