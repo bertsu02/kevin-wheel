@@ -139,7 +139,7 @@
       }, 3000);
     }
   }
-  function displayMessage2(area) {
+  function displayMessage2(NewArea) {
     const messageContainer = document.getElementById('message-container');
     messageContainer.innerText = area;
     messageContainer.style.display = 'block';
